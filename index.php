@@ -8,14 +8,19 @@ require_once __DIR__."./models/Food.php";
 require_once __DIR__."./models/Gadgets.php";
 require_once __DIR__."./models/Sits.php";
 
-$cane = new Categories("cane");
 
 
-$osso = new Products("osso", 20, $cane);
+$food1 = new Food("Croccantini", 10, "20-04-2036");
+$food2 = new Food("Tonno in scatola", 5, "30-08-2030");
 
-$gatto = new Categories("gatto", $osso);
+$gadget1 = new Gadgets("Osso", 2, "PLA");
+$gadget2 = new Gadgets("Palla", 3.99, "gommapiuma");
 
-var_dump($gatto);
+$sit1 = new Sits("Castello", 45, 4);
+$sit2 = new Sits("Cuccia outdoor", 32, 2);
+
+
+var_dump($food1, $food2, $gadget1, $gadget2, $sit1, $sit2);
 
 // $cane = new Categories();
 // $cane->animale = "Cane";
