@@ -1,12 +1,12 @@
 <?php
 
-require_once __DIR__."./models/products.php";
+require_once __DIR__."./models/Products.php";
 
-require_once __DIR__."./models/categories.php";
+require_once __DIR__."./models/Categories.php";
 
-require_once __DIR__."./models/food.php";
-require_once __DIR__."./models/gadgets.php";
-require_once __DIR__."./models/sits.php";
+require_once __DIR__."./models/Food.php";
+require_once __DIR__."./models/Gadgets.php";
+require_once __DIR__."./models/Sits.php";
 
 
 ?>
