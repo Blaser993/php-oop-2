@@ -1,7 +1,7 @@
 <?php
 
 class Sits extends Products{
-    public $scadenza;
+    public $capienza;
 
     public function __construct($_nome, $_prezzo, $_capienza){
 
