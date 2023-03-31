@@ -5,8 +5,9 @@ class Gadgets extends Products{
 
     public function __construct($_nome, $_prezzo, $_materiale){
 
-        $this->nome = $_nome;
-        $this->prezzo = $_prezzo."€";
+        parent::__construct($_nome, $_prezzo, "Giocattoli", $_materiale);
+        // $this->nome = $_nome;
+        // $this->prezzo = $_prezzo."€";
         
         $this->materiale = $_materiale;
     }

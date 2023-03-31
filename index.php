@@ -8,7 +8,8 @@ require_once __DIR__."./models/Food.php";
 require_once __DIR__."./models/Gadgets.php";
 require_once __DIR__."./models/Sits.php";
 
-
+$gatto = new Categories("Gatti", "icona del gatto");
+$cane = new Categories("Cani", "icona del cane");
 
 $food1 = new Food("Croccantini", 10, "20-04-2036");
 $food2 = new Food("Tonno in scatola", 5, "30-08-2030");
@@ -20,7 +21,7 @@ $sit1 = new Sits("Castello", 45, 4);
 $sit2 = new Sits("Cuccia outdoor", 32, 2);
 
 
-var_dump($food1, $food2, $gadget1, $gadget2, $sit1, $sit2);
+var_dump($food1, $food2, $gadget1, $gadget2, $sit1, $sit2, $cane, $gatto);
 
 // $cane = new Categories();
 // $cane->animale = "Cane";
