@@ -1,8 +1,12 @@
 <?php
 
 require_once __DIR__."./Categories.php";
+require_once __DIR__."./../traits/Spedition.php";
 
 class Products {
+
+    use Spedition;
+
     public $nome;
     public $prezzo;
     public $tipologia;
